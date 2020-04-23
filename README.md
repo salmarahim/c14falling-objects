@@ -16,7 +16,7 @@
 
 # the for loop for you to refer
 ### apply this and make changes according to your game and variables
-### for (var i = 0; i < enemygroup.maxDepth(); i++) {
+for (var i = 0; i < enemygroup.maxDepth(); i++) {
     if(enemygroup.get(i)!=null && mousePressedOver(enemygroup.get(i))){
     enemygroup.get(i).destroy();
     score--;
